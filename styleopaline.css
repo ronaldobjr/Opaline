@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html{ 
+    margin-top: 30px;
+    background-color: #60061f;
+}
+
+.navcor{
+    background-color: #efd5cb;
+    color: #60061f;
+    font-size: 20px;
+}
+
+.bloco-transparente {
+    background-color: #023047;
+    padding: 20px;
+    width: 70%;
+    color: #FFB703;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.contrate{
+    background-color: #023047;
+    padding: 20px;
+    width: 70%;
+    color: #FFECD1;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.contrate:hover{
+    background-color: #023047;
+    padding: 20px;
+    width: 70%;
+    color: #FFB703;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.notis{
+    padding: 20px;
+    margin: 50px 30px 20px 20px;
+}
+
+.notis p{
+    color: #023047;
+    text-align: justify;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.imglat{
+    margin-top: 20px;
+}
+
+footer {
+padding: 3%;
+background-color: #efd5cb;
+color: #60061f;
+text-align: center;
+}
+
+.rodeado{
+    border-radius: 15px;
+}
+
+.tamanhocar{
+    width: 100%;
+}
+
+.bgbotoes{
+    background-color: #60061f;
+}
+.bloco{
+    background-color: #FFD97B;
+    padding: 20px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin: auto;
+    
+    text-align: justify;
+}
+.bloco2{
+    background-color: #FFB703;
+    padding: 20px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin: auto;
+}
+.espaço{
+    margin-top: 80px;
+}
+.foto{
+    margin-left: 15px;
+}
+.tamanho{
+    font-size: large;
+    align-items: baseline;
+}
+.corbtn{
+    background-color: #60061f;
+    color: #efd5cb;
+}
+.corpreço{
+    color: #60061f;
+    background-color: #efd5cb;
+}
+
+.produto.corpreço{
+    background-color: #efd5cb;
+}

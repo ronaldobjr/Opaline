@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminário - Modal</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <!--
+        Botão do tipo botão com a classe de botão e na cor azul "primary"
+        data-bs-toggle é um atributo que vai comunicar com o JS que se trata de um modal "pop-up", mas poderia ser offcanvas ou dropdown.
+        data-bs-target trata de qual é o "alvo" que o data-bs quer modificar, IMPORTANTE, o valor dado a esse atributo deve ser o mesmo do ***
+    -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#JanelaModal">
+        Abrir Janela Modal
+    </button>
+
+    <!--
+        ***
+        id para identificar o elemento a ser modificado pelo JS
+        class para o CSS aplicar estilo nesse elemento
+    -->
+    <div id="JanelaModal" class="modal">
+
+        <!--
+           modal-dialog é o campo onde vai ter diálogo, ou seja, interatividade como clicar em botões etc.
+           centered pois quero deixar o modal no meio da tela
+        -->
+        <div class="modal-dialog modal-dialog-centered">
+            
+            <!-- modal-content é uma classe para identificar o campo onde terá conteúdo -->
+            <div class="modal-content">
+
+                <!-- modal-header é o cabeçalho do modal -->
+                <div class="modal-header">
+
+                    <!-- Representar título do modal e seu font-size -->
+                    <h5 class="modal-title fs-5">Modal title</h5>
+
+                    <!--
+                        botão do tipo botão e no formato de um X a partir do valor "close"
+                        data-bs-dismiss signifa que esse botão irá fechar alguma coisa, o modal na frente simboliza essa coisa que será fechada
+                    -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- modal-body é o conteúdo principal do modal -->
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                
+                <!-- modal-footer é onde temos o rodapé do modal, local onde se coloca normalmente os botões de intereação -->
+                <div class="modal-footer">
+
+                    <!--
+                        botão do tipo botão e na cor cinza
+                        data-bs-dismiss signifa que esse botão irá fechar alguma coisa, o modal na frente simboliza essa coisa que será fechada
+                    -->
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <!-- botão do tipo botão e na cor azul -->
+                    <button type="button" class="btn btn-primary">
+                        Save changes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script onde a magia aconte -->
+    <script src="../../bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

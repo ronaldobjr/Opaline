@@ -1,0 +1,126 @@
+
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.produto {
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 18px;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+
+
+.google {
+    width: 100%;
+    margin: 5px;
+}
+
+.google > img {
+    width: 80px;
+}
+
+.google > p {
+    margin-top: 7px;
+    font-size: 22px;
+}
+
+.modal-body > form > .row > hr {
+    margin: 10px 0 0 6px;
+}
+
+.modal-body > form > .row > p {
+    margin-left: 6px;
+}
+
+input.email, input.senha{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: #f1faee;
+    border-color: #14213d;
+    border-radius: 25px;
+    color: #14213d;
+}
+
+input.email::placeholder {
+    color: #14213d;
+}
+
+input.senha::placeholder {
+    color: #14213d;
+}
+
+.modal-body > form > div > input {
+    margin: 7px 0;
+}
+
+.divsubmit {
+    text-align: center;
+}
+
+input.submit{
+    width: 30%;
+    color: #f1faee;
+    font-weight: bold;
+    background-color: #007bff;
+    border: 2px solid #0056b3;
+    height: 35px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+
+input.submit:hover{
+    transition: background-color 0.5s ease;
+    color: #f1faee;
+    background-color: #0056b3;
+    border: 2px solid #007bff;
+    height: 35px;
+    backdrop-filter: 50%;
+}
+
+.modal-footer > div > a {
+    padding: 5px;
+}
